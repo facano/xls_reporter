@@ -6,11 +6,11 @@ require 'xls_reporter/version'
 Gem::Specification.new do |spec|
   spec.name          = "xls_reporter"
   spec.version       = XlsReporter::VERSION
-  spec.authors       = ["fcano"]
+  spec.authors       = ["Felipe Cano"]
   spec.email         = ["felicanoo@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "Export data to Excel file."
+  spec.description   = "Export data to Excel file. Iterate in a collection and map values in each row to fill Excel spreadsheet"
+  spec.homepage      = "https://github.com/facano"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+
+  spec.add_dependency "write_xlsx", "~> 0.76.0"
 end
