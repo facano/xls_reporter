@@ -103,12 +103,12 @@ module XlsReporter
 
         # Rails defined?
         def rails?
-        	defined? Rails
+          defined? Rails
         end
 
         #Default values of  main method
         def default_path
-        	 rails? ? Rails.public_path : File.expand_path(File.dirname(__FILE__))
+           rails? ? Rails.public_path : File.expand_path(File.dirname(__FILE__))
         end
 
    end

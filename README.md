@@ -62,6 +62,9 @@ with the follow parameters:
 - *batch_iteration*: this `boolean` option permit iterate data in [batches](http://api.rubyonrails.org/classes/ActiveRecord/Batches.html#method-i-find_each) if you use `ActiveRecord`. Default is **true**.
 - *retry_methods*:  this `boolean` option is used to manage exceptions when calling methods in data elements, and retry them. Default is **true**.
 
+## TO DO
+  Write tests and validate code. 
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/xls_reporter/fork )
